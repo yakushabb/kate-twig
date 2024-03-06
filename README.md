@@ -1,24 +1,18 @@
 kate-twig
 =========
 
-kate / katepart / KSyntaxHighlighting syntax highlighting for Twig
+Çatallandığı projeden farklılık göstermemekte olup aynı lisans ile dağıtılmaktadır. Sadece kurulum kısmını Flatpak uygulamaları için sadeleştirdim.
 
-The Twig highlighting file was shamefully copied from the Django tpl syntax file.
-
-Installation
+Kurulum
 ============
 
-Just copy the file to your katepart or KSyntaxHighlighting directory.
-Usually:
+Dosyayı katepart ya da KSyntaxHighlighting dizinine kopyalayınız.
+Normalde ilgili dosya şu konumlardan birisindedir:
 
-    cp ./twig.xml ~/.kde4/share/apps/katepart/syntax/
+    cp ./twig.xml ~/.var/app/org.kde.kate/data/org.kde.syntax-highlighting/syntax
 
-    or
-
-    /home/USER/.local/share/katepart5/syntax/
+    ya da (KDE Frameworks 5.29+)
     
-    or (KDE Frameworks 5.29+)
-    
-    ~/.local/share/org.kde.syntax-highlighting/syntax/
+    ~/.local/share/org.kde.syntax-highlighting/syntax/  
 
-The syntax directory may need to be created first.
+syntax ile ilgili dizinlerin önceden oluşturulması gerekebilir.
